@@ -7,7 +7,7 @@ pipeline{
         stage('git checkout'){
             steps{
                 sh "echo $swe"
-                sh "ls -la" 
+                sh "ls -la"
             }
         }
         stage('archive artifacts'){
