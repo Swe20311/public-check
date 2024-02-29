@@ -8,6 +8,7 @@ pipeline{
             steps{
                 sh "echo $swe"
                 sh "ls -la"
+                sh "echo hi"
             }
         }
         stage('archive artifacts'){
